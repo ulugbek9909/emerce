@@ -1,26 +1,11 @@
 {
-  "currencyList": [
-    { "value": "AUS", "label": "Australia (AUS $)" },
-    { "value": "CAD", "label": "Canada (CAD $)" },
-    { "value": "USD", "label": "United States (US $)" },
-    { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
-  ],
-  "languageList": [
-    { "value": "english", "label": "English" },
-    { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" }
-  ],
+
   "social": {
     "facebook": "https://www.facebook.com/MatterDesign/",
     "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
     "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
-  },
-  "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
+    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg",
+    "telegram": "https://t.me/fasonlar_modalar_kuzgi_kelinchak"
   },
   "footerLinks": [
     {
@@ -33,10 +18,6 @@
         {
           "text": "Journal",
           "link": "/blog"
-        },
-        {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
         }
       ]
     },
@@ -45,19 +26,19 @@
       "links": [
         {
           "text": "FAQ",
-          "link": "/faq"
+          "link": "/"
         },
         {
           "text": "Contact Us",
-          "link": "/support#contact"
+          "link": "https://t.me/gold_adminman"
         },
         {
           "text": "Shipping & Returns",
-          "link": "/support#returns"
+          "link": "/"
         },
         {
           "text": "How to use this theme",
-          "link": "/how-to-use"
+          "link": "/"
         }
       ]
     }
@@ -66,67 +47,7 @@
     {
       "menuLabel": "Shop",
       "menuLink": "/shop",
-      "category": [
-        {
-          "categoryLabel": "woman",
-          "submenu": [
-            {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            }
-          ]
-        },
-        {
-          "categoryLabel": "men",
-          "submenu": [
-            {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
-              "menuLink": "/shop"
-            }
-          ]
-        },
-        {
-          "categoryLabel": "accessories",
-          "submenu": [
-            {
-              "menuLabel": "caps & scarves",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "bags",
-              "menuLink": "/shop"
-            }
-          ]
-        }
-      ]
+      "category": null
     },
     {
       "menuLabel": "journal",

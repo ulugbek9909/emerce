@@ -1,12 +1,10 @@
-import { Link } from 'gatsby';
-import React, { useState } from 'react';
+import {Link} from 'gatsby';
+import React, {useState} from 'react';
 
 import Accordion from '../Accordion';
 import Container from '../Container';
-import Dropdown from '../Dropdown/Dropdown';
 import FormInputField from '../FormInputField/FormInputField';
 import Icon from '../Icons/Icon';
-import Button from '../Button';
 import Config from '../../config.json';
 import * as styles from './Footer.module.css';
 
@@ -87,13 +85,13 @@ const Footer = (prop) => {
                   />
                 </form>
                 <div className={styles.socialContainer}>
-                  {Config.social.youtube && (
+                  {Config.social.telegram && (
                     <div
-                      onClick={() => handleSocialClick('youtube')}
+                      onClick={() => handleSocialClick('telegram')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
-                      <Icon symbol={'youtube'}></Icon>
+                      <Icon symbol={'telegram'}></Icon>
                     </div>
                   )}
 
@@ -117,15 +115,6 @@ const Footer = (prop) => {
                     </div>
                   )}
 
-                  {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )}
                 </div>
               </div>
             </div>
@@ -135,46 +124,10 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
-              <Dropdown
-                label={'Country/Region'}
-                optionList={Config.currencyList}
-              />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
             <div className={styles.copyrightContainer}>
-              <div className={styles.creditCardContainer}>
-                {Config.paymentOptions.amex && (
-                  <img
-                    className={styles.amexSize}
-                    src={'/amex.png'}
-                    alt={'amex'}
-                  ></img>
-                )}
-                {Config.paymentOptions.mastercard && (
-                  <img
-                    className={styles.masterSize}
-                    src={'/master.png'}
-                    alt={'mastercard'}
-                  ></img>
-                )}
-                {Config.paymentOptions.visa && (
-                  <img
-                    className={styles.visaSize}
-                    src={'/visa.png'}
-                    alt={'visa'}
-                  ></img>
-                )}
-              </div>
+
               <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
-                </Button>
+                2022 © KELINCHAKHD
               </span>
             </div>
           </div>

@@ -76,7 +76,6 @@ const ProductCard = (props) => {
             </span>
           )}
         </div>
-        <span className={styles.meta}>{meta}</span>
       </div>
     </div>
   );

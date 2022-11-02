@@ -1,9 +1,5 @@
-import React, { useState, useEffect, createRef } from 'react';
-import { Link, navigate } from 'gatsby';
-
-import { isAuth } from '../../helpers/general';
-
-import AddNotification from '../AddNotification';
+import React, {createRef, useEffect, useState} from 'react';
+import {Link, navigate} from 'gatsby';
 import Brand from '../Brand';
 import Container from '../Container';
 import Config from '../../config.json';
@@ -80,9 +76,7 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
-        <span>{bannerMessage}</span>
-      </div>
+
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
@@ -93,6 +87,7 @@ const Header = (prop) => {
                 setShowMenu(false);
               }}
             >
+
               {Config.headerLinks.map((navObject) => (
                 <Link
                   key={navObject.menuLink}
@@ -105,6 +100,7 @@ const Header = (prop) => {
                   {navObject.menuLabel}
                 </Link>
               ))}
+
             </nav>
           </div>
           <div
@@ -118,47 +114,6 @@ const Header = (prop) => {
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
           <Brand />
-          <div className={styles.actionContainers}>
-            <button
-              aria-label="Search"
-              className={`${styles.iconButton} ${styles.iconContainer}`}
-              onClick={() => {
-                setShowSearch(!showSearch);
-              }}
-            >
-              <Icon symbol={'search'}></Icon>
-            </button>
-            <Link
-              aria-label="Favorites"
-              href="/account/favorites"
-              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
-            >
-              <Icon symbol={'heart'}></Icon>
-            </Link>
-            <Link
-              aria-label="Orders"
-              href={isAuth() ? '/login' : '/account/orders/'}
-              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
-            >
-              <Icon symbol={'user'}></Icon>
-            </Link>
-            <button
-              aria-label="Cart"
-              className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
-              onClick={() => {
-                setShowMiniCart(true);
-                setMobileMenu(false);
-              }}
-            >
-              <Icon symbol={'bag'}></Icon>
-              <div className={styles.bagNotification}>
-                <span>1</span>
-              </div>
-            </button>
-            <div className={styles.notificationContainer}>
-              <AddNotification openCart={() => setShowMiniCart(true)} />
-            </div>
-          </div>
         </div>
 
         {/* search container */}

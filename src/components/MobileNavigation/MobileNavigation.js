@@ -92,7 +92,7 @@ const MobileNavigation = (props) => {
             <div>
               {Config.headerLinks.map((navObject) => {
                 const hasSubmenu =
-                  navObject.category?.length !== undefined ? true : false;
+                  navObject.category?.length !== undefined;
                 return (
                   <Link
                     key={navObject.menuLink}

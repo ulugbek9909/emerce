@@ -38,78 +38,74 @@
     },
     {
         "name": "Classic T-Shirt",
-        "price": 75,
+        "price": 0,
         "alt": "classic t-shirt 3",
         "image": "/products/shirt3.jpg",
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "image": "/products/woman1.png",
+        "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
+        "image": "/products/woman2.png",
         "tags": ["woman"]
     },    
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
+        "image": "/products/woman3.png",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
+        "image": "/products/woman4.png",
+        "tags": ["woman"]
+    },
+    {
+        "name": "Kelin liboslari",
+        "price": 0,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman5.png",
+        "tags": ["woman"]
 
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
+        "image": "/products/woman6.png",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
+        "image": "/products/woman7.png",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "name": "Kelin liboslari",
+        "price": 0,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
+        "image": "/products/woman8.png",
+        "tags": ["woman"]
 
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Kelin liboslari",
         "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
+        "alt": "kelin liboslari",
+        "image": "/products/woman9.png",
         "tags": ["woman"]
     }
   ]
